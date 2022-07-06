@@ -43,7 +43,7 @@ ul {
 
 a,
 .text {
-  color: #b4b5b7;
+  color: #8c8d91;
   font-size: 18px;
   text-decoration: none;
 }
@@ -104,4 +104,70 @@ button.signup {
 .item .text {
   width: 160px;
   margin-bottom: 100px;
+}
+
+.section3 {
+  background: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 350px;
+
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #545d68;
+  margin-bottom: 20px;
+}
+
+.author {
+  margin-left: 500px;
+  color: #1F2937;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.section4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 200px;
+
+}
+
+.section4 .container {
+  display: flex;
+  width: 1200px;
+  height: 150px;
+  background: #3882F6;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 150px;
+  border-radius: 12px;
+}
+
+.title.end {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}
+
+.section4 .text {
+  color: rgb(218, 214, 214)
+}
+
+.section4 button.signup {
+  border: 2px solid white;
+}
+
+.footer {
+  height: 100px;
+  background: #1F2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
